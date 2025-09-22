@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"2ff163fcdc8514d8","x":-580,"y":-100,"width":250,"height":60,"type":"text","text":"Code source"},
+		{"id":"25be006073e5660c","x":-200,"y":-100,"width":250,"height":60,"type":"text","text":"Compilateur"},
+		{"id":"4565005cef6a60dd","x":160,"y":-100,"width":250,"height":60,"type":"text","text":"Code binaire compréhensible machine"}
+	],
+	"edges":[
+		{"id":"347ff5436f728a2e","fromNode":"2ff163fcdc8514d8","fromSide":"right","toNode":"25be006073e5660c","toSide":"left"},
+		{"id":"34246363fefdc024","fromNode":"25be006073e5660c","fromSide":"right","toNode":"4565005cef6a60dd","toSide":"left"}
+	]
+}

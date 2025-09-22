@@ -1,0 +1,14 @@
+{
+	"nodes":[
+		{"id":"66cb8d53f546a56e","type":"text","text":"Hardware","x":-120,"y":100,"width":250,"height":60,"color":"6"},
+		{"id":"de8f91c6752b476c","type":"text","text":"Programme utilisateur","x":-120,"y":-260,"width":250,"height":60,"color":"4"},
+		{"id":"2e06df8f188d3bea","type":"text","text":"Systeme d'exploita","x":-120,"y":-80,"width":250,"height":60},
+		{"id":"8981fb75943baa11","type":"text","text":"Matériel","x":-120,"y":-80,"width":250,"height":60,"color":"1"}
+	],
+	"edges":[
+		{"id":"5ae778ba5449340d","fromNode":"de8f91c6752b476c","fromSide":"bottom","toNode":"2e06df8f188d3bea","toSide":"top"},
+		{"id":"2d89f912cbbd16a9","fromNode":"8981fb75943baa11","fromSide":"bottom","toNode":"66cb8d53f546a56e","toSide":"top"},
+		{"id":"5122a27e125a0ff4","fromNode":"66cb8d53f546a56e","fromSide":"top","toNode":"2e06df8f188d3bea","toSide":"bottom"},
+		{"id":"3c5a6b699b7ec5b5","fromNode":"8981fb75943baa11","fromSide":"top","toNode":"de8f91c6752b476c","toSide":"bottom"}
+	]
+}

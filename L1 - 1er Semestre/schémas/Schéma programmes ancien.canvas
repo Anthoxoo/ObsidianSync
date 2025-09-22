@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"9508a3979aa08b1c","type":"text","text":"Perforation de cartes ","x":-540,"y":-40,"width":250,"height":60},
+		{"id":"b772cff436c36b45","type":"text","text":"inscription sur bandes magnétiques ","x":-220,"y":-40,"width":250,"height":60},
+		{"id":"581edfefb222ad83","x":100,"y":-40,"width":250,"height":60,"type":"text","text":"calcul et traitement des données sur la machine"},
+		{"id":"a0281c09b57f7dfa","x":100,"y":80,"width":250,"height":60,"type":"text","text":"impression des résultats sur bande magnétique"},
+		{"id":"4b7369afa8da62b5","x":-220,"y":80,"width":250,"height":60,"type":"text","text":"impression des résultats"}
+	],
+	"edges":[
+		{"id":"b0db3caf88d3aa48","fromNode":"9508a3979aa08b1c","fromSide":"right","toNode":"b772cff436c36b45","toSide":"left"},
+		{"id":"2c84dd5e3cdf0d51","fromNode":"b772cff436c36b45","fromSide":"right","toNode":"581edfefb222ad83","toSide":"left"},
+		{"id":"85d2cc8729e87b5e","fromNode":"581edfefb222ad83","fromSide":"bottom","toNode":"a0281c09b57f7dfa","toSide":"top"},
+		{"id":"ec9a8740a8fa2c14","fromNode":"a0281c09b57f7dfa","fromSide":"left","toNode":"4b7369afa8da62b5","toSide":"right"}
+	]
+}
