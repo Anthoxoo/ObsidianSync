@@ -1,2 +1,2 @@
 # ObsidianSync
-hey this is a test
+hey this works well !

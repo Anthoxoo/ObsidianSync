@@ -54,9 +54,13 @@
 - **ATTENTION :** 
 ![[Pasted image 20250922075139.png]]
 
-
+--- 
 ### Expression Régulières 
-- Mettre toutes les epressions régulières voir CM_4
+- . : caractère quelconque
+- * : répétition, du caractère qui précède, de longueur quelconque éventuellement vide
+- ˆ : début d’une ligne
+- $ : fin d’une ligne
+- ```\{n\}``` : répétition de n fois le caractère précédent, qu’il soit caractère normal ou métacaractère des expressions régulières
 
 --- 
 ### Script
@@ -78,6 +82,7 @@
 	- $x2 : numéro du processus du shell 
 - Pour modifier la valeur des param on utilise "set"
 
+
 - #### Variables 
 - une variable **ne peut pas** commecer par un chiffre
 - la valeur d'une variable est obtenue en mettant le signe $ juste avant
@@ -94,6 +99,7 @@ var=p
 	  -> Lancement de la commande pwd  
 	     ```
 
+--- 
 ### Conditions :
 - commande renvoie 0 --> condition est vraie
 - commande renvoie != 0 --> condition fausse
