@@ -1,0 +1,2 @@
+- Il n'y a que des jsons
+- permet de changer par la suite la texture d'un bloc si jamais celui-ci évolue avec le temps exemple : le blé n'a pas tout le temps la meme forme 
