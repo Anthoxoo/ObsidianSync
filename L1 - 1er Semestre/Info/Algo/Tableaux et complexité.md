@@ -54,7 +54,7 @@ tableau[1] = 2 * tableau[0];
   - Créer une matrice
   - Connaître dimensions
   - Lire un élément
-  - Écrire un élément
+  - Remplacer un élément
 
 ```python
 # Exemple Python
