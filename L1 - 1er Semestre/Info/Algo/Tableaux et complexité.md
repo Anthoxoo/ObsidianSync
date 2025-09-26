@@ -25,7 +25,7 @@
   - Créer un tableau
   - Connaître la longueur
   - Lire un élément
-  - Écrire un élément
+  - Remplacer un élément
 
 ```python
 # Exemple Python
