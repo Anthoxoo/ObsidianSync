@@ -1,3 +1,9 @@
+Topologies :
+- exemple : en étoile, en anneau
+
+Protocole utilisé pour l'envoi de mails : **SMTP**
+
+
 Ensemble de ressources :
 - **matérielles et logicielles** :
 	- RJ45, Courant électrique, Fibre optique, Ondes (wifi,3G,...)
@@ -135,7 +141,7 @@ Deux modèles réseaux :
 	- Environ maximum de 4 milliards d'adresse
 	- Deux premier nombre : réseau local, deux derniers : adresse de la machine
 	- Nombres compris entre 0 et 255
-	- DNS est un service qui permet de retrouver une adresse IP à partir de l'adresse FQDN ou d'un lien 
+	- **DNS** est un service qui permet de retrouver **une adresse IP à partir de l'adresse FQDN ou d'un lien** 
 		- Il va demander regarder le .fr donc aller en france puis regarder le domaine et interroger ce domaine en France donc
 	- **Classes :**
 		- A -> Réseaux avec beaucoup de machines ( adresse ip en binaire commence par 0 )
