@@ -65,7 +65,7 @@ mat = creer_matrice(19, 13, 0)
 mat[3][4] = 7
 mat[2][7] = 2 * mat[3][4]
 ```
-```
+```C
 // Exemple C
 int matrice[19][13] = {0};
 scanf("%d", &matrice[3][4]);

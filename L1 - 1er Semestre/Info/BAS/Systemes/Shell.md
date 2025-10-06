@@ -79,7 +79,7 @@
 - Pour modifier la valeur des param on utilise "set"
 
 - #### Variables 
-- une variable **ne peut pas** commecer par un chiffre
+- une variable **ne peut pas** commencer par un chiffre
 - la valeur d'une variable est obtenue en mettant le signe $ juste avant
 - il n'y a **que** des chaines de carac en shell
 - pour affcter une valeur en shell on met nomVariable=valeur **attention pas d'espace entre = et les deux cotés**
@@ -89,7 +89,7 @@
 - si on veut concatener des variables et autres il faut mettre des {nomVariable}
 - Il est possible de faire :
 - ```sh
-var=p
+	  var=p
 	  ${var}wd
 	  -> Lancement de la commande pwd  
 	     ```
@@ -122,6 +122,25 @@ var=p
 	- **for** myVariable **in** liste_de_cas
 	- on met un do après et un done une fois la séquence de commande écrite
 - 
+
+--- 
+### Commandes :
+- **cut**
+	- -f avec la pos du mot --> mot a la position donnée ( exemple : f1) 
+	- -d --> délimiteur ( souvent espace )
+	- -c --> pos du carac de chaque ligne
+- **tr**
+	- -s 'carac'--> suprimme les doublons d'un caractère ( exemple dans le ls -l avec les espaces. )
+- **sed**
+	- -e 's/a remplacer/remplacé par' --> le s pour substitution
+	- -e 's/.../.../g' --> le fait pour toute la ligne car sans cela fait qu'une seule occurence par ligne.
+	- -e 's/premier_bloc deuxieme_bloc/2/1 --> echange le premier et le deuxieme mot ( si plus de 2 mots, prends tous les premiers mot et les échange avec le dernier)
+	- accepte les expressions régulières. Prend toujours la plus grande valeur
+	- -f pour le faire sur tout un fichier ( dans le cadre d'un script par exemple )
+
+
+
+
 
 [[CM_03_Shell_BAS.pdf]]
 [[CM_04_Shell8BAS.pdf]]
