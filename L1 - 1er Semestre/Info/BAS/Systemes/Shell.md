@@ -107,7 +107,18 @@
 - quand on ferme la condition finale on écrit "fi" 
 - | signifie "ou"
 - ;; signifie break
-
+- -f pour vérifier que ce soit un fichier
+- -r pour lecture
+- -w pour écriture
+- -d repertoire
+- -x execution
+- **expr**
+	- argument_1 operateur argument2
+	- **operateurs** disponibles :
+		- \*, +, -, /, %, =, !=, \<,\>,\<=,\>=
+	- expr renvoie comme code de retour 1 si le resultat est vrai et 0 si faux
+	- avec regex : expr $chaine : (regex)
+	- 
 --- 
 ### Codes erreur :
 - 0 --> VRAI
@@ -145,3 +156,5 @@
 [[CM_03_Shell_BAS.pdf]]
 [[CM_04_Shell8BAS.pdf]]
 [[TD1 BAS.pdf]]
+[[TD2 - BAS.pdf]]
+[[TD3 - BAS.pdf]]
