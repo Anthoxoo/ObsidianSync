@@ -164,6 +164,8 @@ Le c a été développé en meme temps qu'unix pour assurer la portabilité
 		- et 3 derniers other
 		- nombre de liens
 		- propriétaire
+
+--- 
 ### Liens
 - **lien physique** donne un autre nom a un meme fichier
 	- ```
@@ -175,8 +177,49 @@ Le c a été développé en meme temps qu'unix pour assurer la portabilité
 	  ln -s source destination
 	  ```
 
+--- 
 ### Occupation disque
 - ```
   df -k (mais -h donne l'unité la plus appropriée)
   ```
   -> donne des infos sur la place disponible en ko
+
+---
+### Languages de programmation
+- Compilation directe vers l'assembly pour des languages bas niveau comme le rust,c,c++.. Une fois compilé, on n'a plus besoin du code source
+- Compilation indirecte qui va compiler au fur et a mesure, une instruction, une compilation, c'est le role de l'interpréteur --> python,bash,sh... Meme éxécuté, on doit avoir un compilateur ainsi que le code source pour exec le programme
+- Compilation semi indirecte comme en java ou l'on va traduire en code simple puis traduire le code simple en language machine
+
+--- 
+### OS et programmes
+- OS premier programme a démarrer
+- OS programme avec le plus de privilèges --> il a accès a tout, meme au matériel.
+- gère l'allocation des ressources des autres programmes.
+- on enregistre l'état de l'OS lorsque l'on veut utiliser un autre programme afin de pouvoir éxecuter l'autre programme puis revenir au systeme d'exploitatio après. Cela s'appelle le "context switch", on enregistre en mémoire l'état des registres pour en garder la trace pour après.
+	- Le systeme réduit les privilèges des autres programmes pour qu'il ne puisse pas toucher aux zones où le context switch est en mémoire pour éviter tout problèmes de sécurité
+- Le cpu est interrompu lorsqu'il recoit un signal d'un autre composant (= interruption matérielle)
+- l'OS programme une horloge afin que celui-ci puisse reprendre la main tout les x temps et vérifier si il y a une boucle infini ou autre.
+
+---
+### Programmes et Processus
+- Programme != Processus --> programme est passif et est stocké sur un disque dur alors que le processus est une instruction donné par le programme
+- ![[Etat_Processus.png]]
+- **Appels systemes : **
+	- Manière de faire d'un processus pour demander une information à l'OS
+	- inerruption logiciel du processeur pour aller chercher l'info
+	- Renvoi de la réponse
+	- --- 
+	- Un processus peut demander la création d'un nouveau processus, le père de tout les processus est le process "init" --> soit un fork soit un clone
+	- Pour se terminer, un processus fait un system call exit afin que l'OS reprennent les ressources précedemment allouées.
+
+---
+### Ordonnancement 
+- Pour éviter qu'un processus prenne toutes les ressources du cpu, l'OS utilise l'horloge matérielle et va arreter au bout d'un "quantum de temps" défini au préablable. On appelle un procesus "avec préamption" lorsque on peut l'arreter.
+- Exemples :
+	- SJF --> shortest first
+	- Round robin
+	- SRT --> shortest remaining
+	- ...
+- Sous unix : Fils a priorité --> Les proces prets sont mis dans la file de priorité et réevalués au cours du temps, les priorités baissent au fur et a mesure.
+- **SAVOIR FAIRE CHRONORAMME POUR CC (voir cm)**
+-  

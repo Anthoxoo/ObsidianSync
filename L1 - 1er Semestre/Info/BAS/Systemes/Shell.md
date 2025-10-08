@@ -84,7 +84,7 @@
 
 
 - #### Variables 
-- une variable **ne peut pas** commecer par un chiffre
+- une variable **ne peut pas** commencer par un chiffre
 - la valeur d'une variable est obtenue en mettant le signe $ juste avant
 - il n'y a **que** des chaines de carac en shell
 - pour affcter une valeur en shell on met nomVariable=valeur **attention pas d'espace entre = et les deux cotés**
@@ -94,11 +94,39 @@
 - si on veut concatener des variables et autres il faut mettre des {nomVariable}
 - Il est possible de faire :
 - ```sh
-var=p
+	  var=p
 	  ${var}wd
 	  -> Lancement de la commande pwd  
 	     ```
 
+<<<<<<< HEAD
+=======
+### Conditions :
+- commande renvoie 0 --> condition est vraie
+- commande renvoie != 0 --> condition fausse
+- **Commande test :**
+	- test comparaison1 -a comparaison2 
+		--> ET logique ( and )
+	- test comparaison1 -o comparaison2 
+		--> OU logique ( or ) 
+- if [ conditon ] faire **attention aux espaces dans les crochets** a respecter !
+- après un if on met un then, après un elif on met un then, après un else non
+- quand on ferme la condition finale on écrit "fi" 
+- | signifie "ou"
+- ;; signifie break
+- -f pour vérifier que ce soit un fichier
+- -r pour lecture
+- -w pour écriture
+- -d repertoire
+- -x execution
+- **expr**
+	- argument_1 operateur argument2
+	- **operateurs** disponibles :
+		- \*, +, -, /, %, =, !=, \<,\>,\<=,\>=
+	- expr renvoie comme code de retour 1 si le resultat est vrai et 0 si faux
+	- avec regex : expr $chaine : (regex)
+	- 
+>>>>>>> origin/main
 --- 
 ### Codes erreur :
 - 0 --> VRAI
@@ -114,6 +142,27 @@ var=p
 	- on met un do après et un done une fois la séquence de commande écrite
 - 
 
+--- 
+### Commandes :
+- **cut**
+	- -f avec la pos du mot --> mot a la position donnée ( exemple : f1) 
+	- -d --> délimiteur ( souvent espace )
+	- -c --> pos du carac de chaque ligne
+- **tr**
+	- -s 'carac'--> suprimme les doublons d'un caractère ( exemple dans le ls -l avec les espaces. )
+- **sed**
+	- -e 's/a remplacer/remplacé par' --> le s pour substitution
+	- -e 's/.../.../g' --> le fait pour toute la ligne car sans cela fait qu'une seule occurence par ligne.
+	- -e 's/premier_bloc deuxieme_bloc/2/1 --> echange le premier et le deuxieme mot ( si plus de 2 mots, prends tous les premiers mot et les échange avec le dernier)
+	- accepte les expressions régulières. Prend toujours la plus grande valeur
+	- -f pour le faire sur tout un fichier ( dans le cadre d'un script par exemple )
+
+
+
+
+
 [[CM_03_Shell_BAS.pdf]]
 [[CM_04_Shell8BAS.pdf]]
 [[TD1 BAS.pdf]]
+[[TD2 - BAS.pdf]]
+[[TD3 - BAS.pdf]]
