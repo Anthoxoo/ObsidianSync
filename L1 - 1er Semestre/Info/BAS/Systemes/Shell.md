@@ -44,7 +44,7 @@
 	  -> écris les mots ayant un e dans fichier2.txt
 - >> fait pareil que > mais n'efface pas le fichier car un seul > reset tout si jamais le fichier existe déja ou le crée si il n'existe pas
 - commande1|commande2 -> 2 commandes d'affilé et de connecter stout de commande1 a stdin de commande2. ex:
-	- ```
+	- ```shell
 	  cat fichier.txt | grep 'e' | grep '2' | wc -l
 	  ```
 	  -> envoie sur stdout les lignes où il y a un 2 et un e
@@ -98,21 +98,6 @@ var=p
 	  ${var}wd
 	  -> Lancement de la commande pwd  
 	     ```
-
---- 
-### Conditions :
-- commande renvoie 0 --> condition est vraie
-- commande renvoie != 0 --> condition fausse
-- **Commande test :**
-	- test comparaison1 -a comparaison2 
-		--> ET logique ( and )
-	- test comparaison1 -o comparaison2 
-		--> OU logique ( or ) 
-- if [ conditon ] faire **attention aux espaces dans les crochets** a respecter !
-- après un if on met un then, après un elif on met un then, après un else non
-- quand on ferme la condition finale on écrit "fi" 
-- | signifie "ou"
-- ;; signifie break
 
 --- 
 ### Codes erreur :

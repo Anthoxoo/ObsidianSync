@@ -65,6 +65,7 @@ mat = creer_matrice(19, 13, 0)
 mat[3][4] = 7
 mat[2][7] = 2 * mat[3][4]
 ```
+
 ```
 // Exemple C
 int matrice[19][13] = {0};
@@ -115,6 +116,7 @@ def racine_entiere_1(n):
     while (a+1)**2 <= n:
         a += 1
     return a
+
 
 # Dichotomie
 def racine_entiere_2(n):
