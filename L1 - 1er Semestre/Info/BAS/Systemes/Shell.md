@@ -14,7 +14,7 @@
 		- ```sh
   	  	  rm image???.jpg
 	  	  ```
-		  -> supprime tous les fichiers ayant ce patterne
+		  -> supprime tous les fichiers ayant ce pattern
 	- ; -> plusieurs commandes sur une meme ligne
 	- "" quand caracteres spécial pour pas que le shell ne le prenne pour un métacaractere
 	- ‵ « capture » la sortie standard pour former un nouveau paramètre ou une nouvelle commande
@@ -108,6 +108,7 @@
 		--> ET logique ( and )
 	- test comparaison1 -o comparaison2 
 		--> OU logique ( or ) 
+	- **ATTENTION** : on ne met pas de [  ] pour un test et on n'utilise pas les != ou = etc.
 - if [ conditon ] faire **attention aux espaces dans les crochets** a respecter !
 - après un if on met un then, après un elif on met un then, après un else non
 - quand on ferme la condition finale on écrit "fi" 
@@ -135,7 +136,7 @@
 - **while** :
 	- do après un while et done une fois la séquence de commandes écrite
 - **boucle for** :
-	- ``**for** myVariable **in** liste_de_cas
+	- ``for myVariable in liste_de_cas
 	- on met un do après et un done une fois la séquence de commande écrite
 
 --- 
@@ -151,8 +152,9 @@
 	- ``-e 's/.../.../g' --> le fait pour toute la ligne car sans cela fait qu'une seule occurence par ligne.
 	- ``-e 's/premier_bloc deuxieme_bloc/2/1 --> echange le premier et le deuxieme mot ( si plus de 2 mots, prends tous les premiers mot et les échange avec le dernier)
 	- accepte les expressions régulières. Prend toujours la plus grande valeur
-	- ``-f `--> le faire sur tout un fichier ( dans le cadre d'un script par exemple )
-
+	- ``-f --> le faire sur tout un fichier ( dans le cadre d'un script par exemple )
+- **df**
+	- `-k` donne le nombre en octets du disque 
 
 
 
