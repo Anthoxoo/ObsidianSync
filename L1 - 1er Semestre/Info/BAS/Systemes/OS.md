@@ -224,4 +224,3 @@ Le c a été développé en meme temps qu'unix pour assurer la portabilité
 - **SAVOIR FAIRE CHRONOGRAMME POUR CC (voir cm)**
 
 
-#A-revoir 

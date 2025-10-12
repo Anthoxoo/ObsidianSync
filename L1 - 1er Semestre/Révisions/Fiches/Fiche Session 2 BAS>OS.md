@@ -1,0 +1,11 @@
+**Role OS :** l'OS doit avoir un algo d'ordonnancement, gérer le parallélisme, offrir une machine virtuelle avec une interface à l'utilisateur, gérer l'allocation de la mémoire, avoir un moyen d'interrompre ou d'envoyer des ordres au CPU
+
+**Gestion de la mémoire :** Le systeme d'exploitation doit avoir en permanence un oeil sur la mémoire utilisée par les processus afin que ceux-ci n'abusent pas. L'OS doit reprendre l'emplacement précedemment allouée aux processus terminées afin de pouvoir la redistribuer par la suite. l'OS doit toujours executer les programmes sur la mémoire vive car disque dur trop lent.
+
+**Gestion des fichiers :** l'utilisateur doit etre en capacité de créer son arborescence : créer, détruire, modifier, renommer et changer les permissions de ses fichiers.
+
+**Gestion E/S :** l'OS communique avec les drivers des différents entrees sorties, a noté que les E/S sont beaucoups plus lents que la vitesse du cpu --> fonctionnement par evenements afin de ne pas réduire la vitesse du cpu pour les E/S
+
+**Interface utilisateur :** l'interface utilisateur doit permettre a ses utilisateurs de : ouvrir et utiliser un shell, démarrer des programmes --> les charger en mémoire, utiliser une fenetre graphique pour utiliser son systeme de gestion de fichiers, savoir lorsqu'il y a une erreur et de permettre a l'utilisateur d'intéragir avec les processus en cours d'éxécution.
+
+**Sécurité :** Un processus ne doit jamais interférer avec un autre, si cela devait se produire on arrete l'un afin de libérer la ressource une fois consommée par l'autre. permettre a l'utilisateur de gérer le systeme de droits sur les fichiers, doit fournir un numéro d'authentifiaction ainsi qu'un mot de passe par utilisateur et les conserver dans une liste pour log le bon utilisateur, garder des logs, avoir une **"acces control list"** qui repertorie tous les fichiers et répertoires avec les droits qui leurs sont associés. Permettre a l'utilisateur d'effectuer des appels systemes qui vont directement intéragir avec l'OS.
