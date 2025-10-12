@@ -7,11 +7,11 @@
 	- . fichiers cachés
 	- [liste carac] désigne ce qu'il y a entre les crochets : [0-9] "entre 0 et 9"
 	- ex :
-		- ```
+		- ```sh
  	  	  rm *.jpg
 	  	  ```
 		  -> supprime tous les jpg
-		- ```
+		- ```sh
   	  	  rm image???.jpg
 	  	  ```
 		  -> supprime tous les fichiers ayant ce patterne
@@ -33,12 +33,12 @@
 - soit ctrl + d soit commande << separateur
 	-> ctrl + d envoie résultat dès que commande rentrée alors que << fait un script et envoie sur stdout
 - < permet de faire le lien entre une commande et un fichier ex : 
-	- ```
+	- ```sh
 	  grep "n" < fichier.txt
 	  ```
 	  -> renvoie tous les mots ayant n de fichier.txt
 - > prend permet de connecter une commande a un fichier ex :
-	- ```
+	- ```sh
 	  grep 'e' > fichier2.txt
 	  ```
 	  -> écris les mots ayant un e dans fichier2.txt
@@ -99,8 +99,7 @@
 	  -> Lancement de la commande pwd  
 	     ```
 
-<<<<<<< HEAD
-=======
+---
 ### Conditions :
 - commande renvoie 0 --> condition est vraie
 - commande renvoie != 0 --> condition fausse
@@ -125,8 +124,6 @@
 		- \*, +, -, /, %, =, !=, \<,\>,\<=,\>=
 	- expr renvoie comme code de retour 1 si le resultat est vrai et 0 si faux
 	- avec regex : expr $chaine : (regex)
-	- 
->>>>>>> origin/main
 --- 
 ### Codes erreur :
 - 0 --> VRAI
@@ -138,24 +135,23 @@
 - **while** :
 	- do après un while et done une fois la séquence de commandes écrite
 - **boucle for** :
-	- **for** myVariable **in** liste_de_cas
+	- ``**for** myVariable **in** liste_de_cas
 	- on met un do après et un done une fois la séquence de commande écrite
-- 
 
 --- 
 ### Commandes :
 - **cut**
-	- -f avec la pos du mot --> mot a la position donnée ( exemple : f1) 
-	- -d --> délimiteur ( souvent espace )
-	- -c --> pos du carac de chaque ligne
+	  ```-f avec la pos du mot --> mot a la position donnée ( exemple : f1) 
+	- ``-d --> délimiteur ( souvent espace )
+	- ``-c --> pos du carac de chaque ligne
 - **tr**
-	- -s 'carac'--> suprimme les doublons d'un caractère ( exemple dans le ls -l avec les espaces. )
+	- ``-s 'carac'--> suprimme les doublons d'un caractère ( exemple dans le ls -l avec les espaces. )
 - **sed**
-	- -e 's/a remplacer/remplacé par' --> le s pour substitution
-	- -e 's/.../.../g' --> le fait pour toute la ligne car sans cela fait qu'une seule occurence par ligne.
-	- -e 's/premier_bloc deuxieme_bloc/2/1 --> echange le premier et le deuxieme mot ( si plus de 2 mots, prends tous les premiers mot et les échange avec le dernier)
+	- ``-e 's/a remplacer/remplacé par' --> le s pour substitution
+	- ``-e 's/.../.../g' --> le fait pour toute la ligne car sans cela fait qu'une seule occurence par ligne.
+	- ``-e 's/premier_bloc deuxieme_bloc/2/1 --> echange le premier et le deuxieme mot ( si plus de 2 mots, prends tous les premiers mot et les échange avec le dernier)
 	- accepte les expressions régulières. Prend toujours la plus grande valeur
-	- -f pour le faire sur tout un fichier ( dans le cadre d'un script par exemple )
+	- ``-f `--> le faire sur tout un fichier ( dans le cadre d'un script par exemple )
 
 
 
@@ -166,3 +162,5 @@
 [[TD1 BAS.pdf]]
 [[TD2 - BAS.pdf]]
 [[TD3 - BAS.pdf]]
+
+

@@ -221,5 +221,7 @@ Le c a été développé en meme temps qu'unix pour assurer la portabilité
 	- SRT --> shortest remaining
 	- ...
 - Sous unix : Fils a priorité --> Les proces prets sont mis dans la file de priorité et réevalués au cours du temps, les priorités baissent au fur et a mesure.
-- **SAVOIR FAIRE CHRONORAMME POUR CC (voir cm)**
--  
+- **SAVOIR FAIRE CHRONOGRAMME POUR CC (voir cm)**
+
+
+#A-revoir 

@@ -53,3 +53,4 @@ Parcours d'un entrepreuneur de la fac :
 ## Opinion :
 Prend des cas concrets 
 cas de Sylvain super intéressant + participation beta
+Ne pas laisser des personnes décourager ou meme donner des conseils qui sont érronés mais savoir faire la part entre les bons et les mauvais
