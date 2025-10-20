@@ -1,4 +1,6 @@
 # Invariants
+
+**Invariant --> 1 dans l'initialisation, dans la boucle**
 ## Par baleyage
 Un invariant est quelque chose qui quelque soit la partie du code ou l'on est, celle-ci sera vraie
 Exemple avec la division euclidienne par baleyage :
@@ -38,8 +40,12 @@ def racine_entiere(n):
 ---
 # Variant
 Une boucle possède un variant, cela signifie que celle-ci se terminera. Un variant est : 
+- **positif ou nul début de boucle**
 - **Entier**
 - **Positif**
-- **Strictement décroissante**
+- **Strictement décroissant**
+
+
+
 
 VOIR CM pour mettre exemples et compléter.

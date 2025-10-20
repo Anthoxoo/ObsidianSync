@@ -32,7 +32,7 @@ Ordre **compilation**
 
 --- 
 ### Juridique
-- Programme lui-même PROTECTION PAR LE **DROIT D’ AUTEUR**
+- Programme lui-même PROTECTION PAR LE **DROIT D’AUTEUR**
 	- droits moraux
 	- il faut que ce soit une oeuvre de l'esprit **original** afin de bénéficier du droit d'auteur
 	- respecté au niveau international
