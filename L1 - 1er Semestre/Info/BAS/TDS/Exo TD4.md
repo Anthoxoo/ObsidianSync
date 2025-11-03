@@ -54,7 +54,7 @@ exit 0
 # Exercice 4
 ```sh
 #!/bin/sh
-if [ $# -ne 1 -o $# -ne 0 ];then
+if [ $# -ne 1 -o $# -ne 0 ]; then
 	echo "Usage : $0 [] or $0 [file]"
 fi
 if [ $# -eq 1 ];then
@@ -62,7 +62,7 @@ if [ $# -eq 1 ];then
 fi
 
 numLigne=wc -l $1 | cut -f1 -d ' '
-while read ligne;do
+while read ligne; do
 	tail -$numLigne | head -1
 	numLigne=`expr numLigne - 1`
 done < "$1"
