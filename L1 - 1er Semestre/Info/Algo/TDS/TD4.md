@@ -16,3 +16,9 @@ calcul(3) = 6
 			return not est_pair(n-1)
    ```
 3) 
+
+
+
+
+
+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
