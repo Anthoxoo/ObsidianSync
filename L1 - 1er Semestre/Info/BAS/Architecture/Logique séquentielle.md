@@ -1,4 +1,4 @@
-Tous les compsants de la logique séquentielle possèdent une fonction de mémorisation
+"Tous les compsants de la logique séquentielle possèdent une fonction de mémorisation
 **Stable** : Signifie que l'on sait à l'avance l'état des sorties en fonction des entrées
 
 ### Asynchrone :
@@ -27,4 +27,5 @@ Le signal C est souvent une horloge à signal périodique
 ### Registres
 Une bascule mémorise 1 bit, un registre permet donc de stocker plusieurs bits en empilant des bascules.
 On peut utliser un multiplexeur suivi d'une bascule D afin de stocker un bit durant indéfini (tant que le signal n'a pas été rappelé)
-P
+
+### Compteur
