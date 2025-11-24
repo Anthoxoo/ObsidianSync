@@ -23,4 +23,8 @@ Le signal C est souvent une horloge à signal périodique
 **Bascule à déclenchement sur front :**
 - Il y a une bascule maitre et une bascule esclave
 - Une seule bascule ne peut s'activer a la fois, c'est pourquoi on partage le C des deux bascules mais on fait passer un NOT C à la bascule esclave
-- 
+
+### Registres
+Une bascule mémorise 1 bit, un registre permet donc de stocker plusieurs bits en empilant des bascules.
+On peut utliser un multiplexeur suivi d'une bascule D afin de stocker un bit durant indéfini (tant que le signal n'a pas été rappelé)
+P
