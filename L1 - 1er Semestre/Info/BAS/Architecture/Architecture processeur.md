@@ -23,4 +23,3 @@ Pour coder un nombre négatif, il faut faire un déplacement donc faire une addi
 
 **Comment faire pour faire des boucles qui s'arretent ?**
 il faut vérifier a chaque fin d'itération si on veut repartir dans la boucle ( goto ) ou alors poursuivre le code dans le programme, on peut réutiliser les sorties Z et C ( Z pour si la condition à a voir avec 0 ). Il faut donc garder en mémoire C et Z afin de pouvoir les avoir dans l'instruction suivante qui va déterminer si jamais on reste dans la boucle ou pas.
-
