@@ -1,4 +1,4 @@
-"Tous les compsants de la logique séquentielle possèdent une fonction de mémorisation
+Tous les compsants de la logique séquentielle possèdent une fonction de mémorisation
 **Stable** : Signifie que l'on sait à l'avance l'état des sorties en fonction des entrées
 
 ### Asynchrone :
