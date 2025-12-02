@@ -5,7 +5,7 @@
 le phénomène de diffraction signifie qu'il y a une déviation de la lumière au contact d'un objet --> ex: lentilles, fentes avec l'expérience des fentes de young
 
 **Constante de la lumière** = $$3*10^8$$
-Fréquence en Hz d'une longueur d'onde (sorte de v grec) : $$3*10⁸ / longueur d'onde en metre$$
+Fréquence en Hz d'une longueur d'onde nu : $$3*10⁸ / longueur d'onde en metre$$
 ex avec la couleur jaune-orange :  $$3*10^8 / 0,6*10^-6$$
 phi (sorte de L grec) = intensité émise par une source lumineuse, se note **phi(lambda)**
 **le flux energétique surfacique** dit petit phi s'écrit : $$\int_{0}^{\infty}phi(lambda)dlambda$$
