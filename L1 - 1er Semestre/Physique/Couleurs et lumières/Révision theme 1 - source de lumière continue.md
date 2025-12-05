@@ -8,7 +8,7 @@ le phénomène de diffraction signifie qu'il y a une déviation de la lumière a
 Fréquence en Hz d'une longueur d'onde nu : $$3*10⁸ / longueur d'onde en metre$$
 ex avec la couleur jaune-orange :  $$3*10^8 / 0,6*10^-6$$
 phi (sorte de L grec) = intensité émise par une source lumineuse, se note **phi(lambda)**
-**le flux energétique surfacique** dit petit phi s'écrit : $$\int_{0}^{\infty}phi(lambda)dlambda$$
+**le flux energétique surfacique** dit petit phi s'écrit : $$\int_{0}^{\infty}\phi(\lambda)d\lambda$$
 nous donne la valeur sous la courbe de l'intensité de la source lumineuse
 Un **corps noir** est un idéal selon lequel celui-ci absorberait tout rayonnement lumineux.
 lambda max signifie la longueur d'onde (lambda) où le rayonnement est maximal (max)
