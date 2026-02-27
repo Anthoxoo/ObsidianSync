@@ -1,2 +1,2 @@
 # ObsidianSync
-hey this works well !
+keeping my obsidian notes here.
