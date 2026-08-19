@@ -8,7 +8,7 @@
 - serendipity = randomness. serendipity -> only factor scientists can't change. Important because it is everywhere and everything is gravitating around it. Everything on earth is the effect of randomness at some point. Example : Oven, microwave, post-it. Ofc it is true but i cant tell how much because if we were luckier we could have way more discoveries due to serendipity or the opposite.
 
 
-#### ** c) In your opinion, who are the 3 most influential scientists in history and why?**
+####  **c) In your opinion, who are the 3 most influential scientists in history and why?**
 
 - Einstein -> theory of the relativity, changed how scientists see the world. Fourrier -> for a whole lot of reasons, he has been the inventor of many theorems in maths, useful for sound, heat... Marie Curie, first of all a women at a time where scientists where mostly men and were discriminating women. 2 nobels prizes in 2 differents fields ! 
 
