@@ -54,4 +54,5 @@ Il existe plusieurs types de **biens** sur un marché :
 
 **Externalité** = effet indirect qui résulte de l'activité d'un **tiers**, **positif** ou **négatif**. ex : l'achat d'une action peut faire baisser celle d'un autre etc...
 
+**Asymétrie d'information** = un coté à plus d'informations que l'autre ex: vente de voiture d'occasion, le vendeur connait bien sa voiture et sait ce qui va pas dedans mais va le cacher à l'acheteur --> **l'acheteur en sait moins que le vendeur.**
 
