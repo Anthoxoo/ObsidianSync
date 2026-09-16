@@ -1,0 +1,8 @@
+# Deplacements
+		
+		up : k
+		down : j
+		left : h
+		right : l
+
+Search : /
