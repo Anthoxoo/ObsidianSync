@@ -9,6 +9,9 @@
 - banques
 
 ### Destruction Créatrice :
+
+^8a1a12
+
 - Arrivée de l'ia --> détruis des métiers. De plus, les employeurs requierent plus de compétences car **productivité++**
 
 

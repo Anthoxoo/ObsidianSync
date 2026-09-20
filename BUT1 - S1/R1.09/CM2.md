@@ -13,7 +13,7 @@ fonction régalienne = fonctions de base.
 Les fonctions **régaliennes** d'un Etat interventionniste sont de :
 - protéger ses citoyens
 - faire appliquer une justice
-- 
+
 fonctions **sociaux-économiques** :
 - **redistribuer** des richesses
 - proposer des **services publiques**
@@ -42,4 +42,15 @@ pour cela l'état met en place deux types de politique économique :
 
 l'Etat est **souverain** pour mener sa **politique budgétaire** mais il doit respecter des contraintes règlementaires européennes, le **déficit** ne doit pas dépasser **60%** du PIB
 
-critères de **Maastrich**, règle des **3%** du PIB
+critères de **Maastrich**, règle des **3%** du PIB 
+
+**Développement durable** = **croissance** économique sans remettre en question la consommation et les **ressources** des **générations futures**
+- **Economique**
+- **Social**
+- **Environnemental**
+- **Culturel**
+
+Economie suit toujours un cycle, **croissance** -> **stationnaire** -> **décroissance** -> **dépression**, on parle de **destruction créatrice** [[CM1#^8a1a12]]. Selon **Keynes**, il faudrait **relancer** l'économie a chaque fois qu'on entre dans la phase de **décroissance**.
+
+**Externalité** = effets dûs à l'**utilisation** d'un produit, ex: Orange, externalités **négatives** : Ecologie, ondes potentiellement dangereuses. Externalités **positives** : recyclage des anciens appareils, tentative de moins polluer etc...
+
