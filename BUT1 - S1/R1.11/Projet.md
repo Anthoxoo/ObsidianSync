@@ -1,0 +1,3 @@
+## Idée :
+- Codec --> vidéo / photo
+

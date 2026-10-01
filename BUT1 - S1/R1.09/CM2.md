@@ -43,6 +43,7 @@ pour cela l'état met en place deux types de politique économique :
 l'Etat est **souverain** pour mener sa **politique budgétaire** mais il doit respecter des contraintes règlementaires européennes, le **déficit** ne doit pas dépasser **60%** du PIB
 
 critères de **Maastrich**, règle des **3%** du PIB 
+taux d'**inflation** ne doit pas dépasser les 2%
 
 **Développement durable** = **croissance** économique sans remettre en question la consommation et les **ressources** des **générations futures**
 - **Economique**
@@ -53,4 +54,6 @@ critères de **Maastrich**, règle des **3%** du PIB
 Economie suit toujours un cycle, **croissance** -> **stationnaire** -> **décroissance** -> **dépression**, on parle de **destruction créatrice** [[CM1#^8a1a12]]. Selon **Keynes**, il faudrait **relancer** l'économie a chaque fois qu'on entre dans la phase de **décroissance**.
 
 **Externalité** = effets dûs à l'**utilisation** d'un produit, ex: Orange, externalités **négatives** : Ecologie, ondes potentiellement dangereuses. Externalités **positives** : recyclage des anciens appareils, tentative de moins polluer etc...
+
+
 
