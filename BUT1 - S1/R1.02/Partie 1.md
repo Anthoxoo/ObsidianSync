@@ -23,7 +23,7 @@ HTML --> HyperText Markup Language n'est pas un language de programmation.
 	- \<form>
 	- action="" --> **toujours** le mettre mais pas utile pour le moment, nous donne le **résultat** de la requete
 	- method="" --> **pareil que action** mais sert donner la méthode de **transmission** (post ou get)
-- Balises intéractives
+- **Balises interactive** :
 	- **Input** :
 		- permet de donner un champs de texte pour l'utilisateur
 		- balise auto fermante
@@ -33,6 +33,7 @@ HTML --> HyperText Markup Language n'est pas un language de programmation.
 		- **Select**
 			- **name**="blabla"
 			- on le combine a des \<**option**> qui donne les options possible pour notre select.
+			- Pour désactiver un option on peut faire disabled selected dans la balise option elle meme (sert a donner celle qui fait le titre)
 		- type="**radio**" --> un **seul** choix possibles
 		- type="**checkbox**" --> **plusieurs** choix possibles
 		- le fait de mettre **le meme name**="" sur les input oblige le fait qu'une **seule** valeur puisse être selectionnée --> respecte les **conventions** de \<**radio**>
