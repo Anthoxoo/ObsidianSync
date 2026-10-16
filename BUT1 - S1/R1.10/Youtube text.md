@@ -1,0 +1,8 @@
+Youtube is known as a multimedia and or streaming platform that is used by 2.6 billions users each month.
+It was designed by 3 ex Paypal employees as the name of Chad Hurley, Steve Chen and Jawed Karim in San
+Francisco. Originaly, Youtube was what we call angel funded so one or few people believed in the project
+and helped the startup by funding them entierly even though it was not that much expensive to be honest.
+At the beginning of Youtube, the platform was an online pretty classic dating platform but ultimately flopped so the ex paypal employees chose to brutally change the concept of the platform onto a socially video based sharing platform after the famously known Superbowl incident between Justin Timberlake and Janet Jackson. And on the twenty-third april two thousand five, the first emblematic video got posted as the name of "Me at the zoo" which was Youtube's first video ever posted. Then, the platform got purchased for 1.65 billions in two thousand and six by Google and is now the enormous website we all know and use. The only issues Youtube got from being purchased by Google is the controversy a big tech such as Google brought, we got for example the advertisers that discovered that their ads were being sent before and in extremists or inappropriate videos or the case when Logan Paul filmed a literal body of a dead person and we got many more in the stack unfortunately. Finally, Youtube has now diversify its activities and opened few services such as Youtube Kids in order to target kids, Youtube premium to enrich its earnings and blocks the ads for the subscribed users and of course the infamous youtube short to replicate a sort of tiktok. 
+
+
+

@@ -28,7 +28,7 @@ Agents Economiques
 - SF
 - Services publiques
 Barrières à l'entrée --> Lorsque le cout d'entrée sur un marché que ce soit financier ou intellectuel est très élevé, peut mené à un oligopole du fait du peu de personnes sur le marché.
-asymétrie d'information --> Lorsque l'un des deux cotés d'un échange en sait plus que l'autre, ex: marché de l'occasion, le vendeur en sait toujours plus sur son produit que l'acheteur donc ca lui donne un avantage
+asymétrie d'information --> Lorsque l'un des deux cotés d'un échange en saitplus que l'autre, ex: marché de l'occasion, le vendeur en sait toujours plus sur son produit que l'acheteur donc ca lui donne un avantage
 marché --> endroit de croisement de l'offre et la demande.
 Catégories de marché 
 - Capitaux
