@@ -5,7 +5,6 @@
 ## Acteurs économiques :
 - consommateur
 - producteur
-- l'état
 - banques
 
 ### Destruction Créatrice :
